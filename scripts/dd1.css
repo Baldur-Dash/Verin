@@ -1,0 +1,120 @@
+body {
+    font-family: alegreya;
+    background-color: #f5f5f5;
+}
+#nav {
+    background-color: #ff7936;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -1em;
+    padding: 5px 10px 25px 5px;
+    margin-left: -3em;
+    width: 140%;
+    height: 40px;
+    text-align: start;
+}
+p {
+    font-size: 21px;
+    font-weight: 500;
+    padding: 10px;
+    
+}
+li {
+    list-style-type: none;
+    display: inline-flex;
+    margin: -5em 0 1em 1em;
+    
+}
+a {
+   text-decoration: none;
+   color: black;
+}
+a:hover {
+    background-color: burlywood;
+    
+}
+#head {
+    font-size: 31px;
+    font-weight: 900;
+    
+}
+.left {
+float: left;
+width: 30%;
+text-align: center;
+}
+.right {
+width: 60%;
+float: right;
+text-align: start;
+}
+.adjustables{
+display: grid;
+border-radius: 1%;
+grid-template-columns: 10% 10% 10% 10%;
+grid-template-rows:40px 40px 40px 40px;
+padding: 3%;
+gap: 20px;
+background-color:#36b2ff;
+grid-template-areas:
+"hpl hp str int"
+"acl ac end wis"
+"xpl xp dex cha"
+"ini in . ."
+;
+}
+.hp {
+    font-size: 25px; 
+    background-color: yellow;
+    grid-area: hp;
+    border-radius: 15%;
+}
+.hpl {
+    grid-area:hpl;
+}
+.xpl {
+    grid-area:xpl;
+}
+.xp {
+    font-size: 25px;
+    grid-area: xp;
+    background-color: lawngreen;
+    border-radius: 15%;
+}
+.acl {
+    grid-area: acl;
+}
+.in {
+    grid-area: in;
+    font-size: 25px;
+    background-color: ivory;
+    border-radius: 15%;
+}
+.ac {
+    font-size: 25px;
+    background-color: red;
+    grid-area: ac;
+    border-radius: 15%;
+}
+.att {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium';
+}
+#str {
+    grid-area: str;
+}
+#dex {
+    grid-area: dex;
+}
+#end {
+    grid-area: end;
+}
+#int {
+    grid-area:int;
+}
+#wis {
+    grid-area: wis;
+}
+#cha {
+    grid-area: cha}
